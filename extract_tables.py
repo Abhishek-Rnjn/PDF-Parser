@@ -1,5 +1,7 @@
 import camelot
 import pandas as pd
+from copy import deepcopy
+from get_tagged_data import get_tagged_data
 
 def verifier(prev_page,curr_page,prev_df,curr_df):
     last_values = " ".join(list(prev_df.values[-1]))
