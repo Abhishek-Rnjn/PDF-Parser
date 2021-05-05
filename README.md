@@ -1,5 +1,3 @@
-[![N|Solid](https://d29fhpw069ctt2.cloudfront.net/icon/image/37985/preview.svg)](https://github.com/Abhishek-Rnjn/PDF-Parser)
-
 # PDF-Parser
 ## _Description_
 
