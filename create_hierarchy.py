@@ -106,7 +106,7 @@ def generate_hierarchy(refined_data, metadata):
         table_2d = []
         table_columns = value['df'].columns
         table_2d.append(list(table_columns))
-        table_2d.extend(list(value['df'].values))
+        table_2d.extend(list(value['df'].values.to_list()))
         all_table_data[f'table_{key}'] = table_2d
 
     for i, table in enumerate(hierarchial_result['tables']):
