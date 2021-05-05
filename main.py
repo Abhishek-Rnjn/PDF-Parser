@@ -15,4 +15,4 @@ def get_results(pdf_path):
     final_result = generate_hierarchy(refined_data, metadata)
     topic_wise_pdf = topic_split(final_result)
 
-    return final_result
+    return final_result, topic_wise_pdf
