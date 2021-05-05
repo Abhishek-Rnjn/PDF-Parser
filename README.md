@@ -22,6 +22,7 @@ What makes this project unique/valuable?
 - Run the get_results function in main.py by passing the pdf_file_path
 
 ```sh
+sudo apt-get install ghostscript
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
